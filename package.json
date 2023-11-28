@@ -1,0 +1,25 @@
+{
+  "name": "jsonxcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "uche",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "json2xls": "^0.1.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.7.1",
+    "libreoffice-convert": "^1.5.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "pdfkit": "^0.14.0",
+    "xlsx": "^0.18.5"
+  }
+}
